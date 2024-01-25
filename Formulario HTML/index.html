@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Google</title>
+    <link rel="stylesheet" href="css/template.css">
+
+
+</head>
+<body>
+
+   <div class="container">
+    <center>
+    <h1>Escola Virtual</h1> <br>
+    <h2>Formulário de Pré-Matrícula</h2>
+
+    </center>
+
+    <div class="Dados">
+    <fieldset>
+
+        <h3>Dados Pessoas</h3>
+        <p>Nome do Aluno:
+            <input type="text" name="Nome" id="">
+        </p>
+
+        <p>Nascimento (dd/mm/aaaa):
+            <input type="date" name="data" id="">
+        </p>
+
+       <p>Nome da Mãe:
+            <input type="text" name="Nome">
+
+        </p>
+
+        <p>Nome do Pai:
+            <input type="text" name="Nome">
+
+        </p>
+        <p>Telefone: DDD(
+           <input type="tel" name="ddd" id="ddd">)
+            Tel: <input type="tel" name="Telefone">
+            Ramal: <input type="tel" name="Ramal" id="Ramal">
+        </p>
+
+        <p>Email:
+            <input type="email" name="email" id="">
+        </p>
+
+    </fieldset>
+</div>
+
+    <fieldset>
+        <h3>Informações da Matricula</h3>
+       <div class="principal">
+        <div class="series">
+            <p>Série: <br/>
+                <select name="serie" id="">
+                    <option value="valor1">Pré-Escolar</option>
+                    <option value="valor2">1a série 1o grau</option>
+                    <option value="valor3">2a série 1o grau</option>
+                    <option value="valor4">3a série 1o grau</option>
+                    <option value="valor5">4a série 1o grau</option>
+                    <option value="valor6">5a série 1o grau</option>
+                    <option value="valor7">6a série 1o grau</option>
+                    <option value="valor8">7a série 1o grau</option>
+                    <option value="valor9">8a série 1o grau</option>
+                    <option value="valor10">1a série 2o grau</option>
+                    <option value="valor11">2a série 2o grau</option>
+                    <option value="valor12">3a série 2o grau</option>
+                </select>
+            </p>
+        </div>
+       </div>
+
+       <div class="turno">
+        <p>Turno: <br/>
+            <input type="radio" name="turno" value="manhã">Manhã <br>
+            <input type="radio" name="turno" value="tarde">Tarde <br>
+
+        </p>
+       </div>
+
+       <div class="atividade">
+        <p>Atividades Extracurriculares: <br/>
+            <input type="checkbox" name="inf"> Informática <br>
+            <input type="checkbox" name="mus"> Música <br>
+            <input type="checkbox" name="bal"> Balet <br>
+            <input type="checkbox" name="pin"> Pintura <br>
+            <input type="checkbox" name="ju"> Judô <br>
+            <input type="checkbox" name="fut"> Futebol <br>
+        </p>
+       </div>
+
+    </fieldset>
+
+    <button type="submit">Enviar</button>
+
+</div>
+
+</body>
+</html>
